@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pentágono - Departamento de Matemáticas - Universidad de los Andes</title>
+<link href="estilos/css.css" rel="stylesheet" type="text/css" media="all">
+
+<style>
+button.accordion {
+    background-color: #eee;
+	color: #9DB200;
+	font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: solid 1px #CFCFCF;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+	background-color: #AEC600;
+	color: #F2F2F2;
+}
+	
+button.accordion:after {
+    content: '\2B1F'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2B20"; /* Unicode character for "minus" sign (-) */
+}
+	
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+	padding-left: 70px;
+    transition: max-height 0.2s ease-out;
+}
+	
+	div.panel a {
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 17px;
+	color: #6C6C6C;
+	}
+	
+	div.panel a:hover {
+		color: #AEC600;
+	}
+	
+	
+</style>
+
+</head>
+
+<body>
+
+<div id="barra"></div>
+
+<header><img src="images/pentagono_matematicas.png" usemap="#Map">
+  <map name="Map">
+    <area shape="rect" coords="357,6,667,119" href="https://matematicas.uniandes.edu.co/" target="new">
+    <area shape="rect" coords="38,12,268,112" href="https://uniandes.edu.co/" target="new">
+  </map>
+</header>
+
+   		 <nav>
+    		<ul>
+    			<li><a href="index.html">Inicio</a></li>
+				<li><a href="pentagono.html">¿Qué es Pentágono?</a></li>
+			  <li><a href="examenes.html">Exámenes de Cursos</a></li> 
+				<li><a href="/images/horario.pdf" target="_blank">Horarios de Asesorías</a></li> 
+				<li><a href="images/deberes.pdf" target="_blank">Deberes</a></li>
+			  <li><a href="sugerencias.php">Sugerencias</a></li> 
+				
+		   </ul>
+    	</nav>
+
+
+
+<div id="contenedor"><br>
+
+	<div class="titulo">Exámenes de Cursos</div>
+	
+	
+
+	<article>
+	
+<button class="accordion">Precálculo</button>
+<div class="panel">
+  <p>
+  	<ul>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-I/1201.pdf" target="new">Primeros Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-II/1201.pdf" target="new">Segundos Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-III/1201.pdf" target="new">Terceros Parciales</a></li>
+	</ul>
+  </p>
+</div>
+
+<button class="accordion">Cálculo Diferencial</button>
+<div class="panel">
+  <p>
+  	<ul>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-I/1203.pdf" target="new">Primeros Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-II/1203.pdf" target="new">Segundos Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-III/1203.pdf" target="new">Terceros Parciales</a></li>
+	</ul>
+  </p>
+</div>
+
+<button class="accordion">Cálculo Integral</button>
+<div class="panel">
+  <p>
+  	<ul>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-I/1214.pdf" target="new">Primeros Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-II/1214.pdf" target="new">Segundos Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-III/1214.pdf" target="new">Terceros Parciales</a></li>
+	</ul>
+  </p>
+</div>
+
+<button class="accordion">Cálculo Vectorial</button>
+<div class="panel">
+  <p>
+  	<ul>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-I/1207.pdf" target="new">Primeros Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-II/1207.pdf" target="new">Segundos Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-III/1207.pdf" target="new">Terceros Parciales</a></li>
+	</ul>
+  </p>
+</div>
+
+<button class="accordion">Álgebra Lineal</button>
+<div class="panel">
+  <p>
+  	<ul>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-I/1105.pdf" target="new">Primeros Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-II/1105.pdf" target="new">Segundos Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-III/1105.pdf" target="new">Terceros Parciales</a></li>
+	</ul>
+  </p>
+</div>
+
+<button class="accordion">Matemáticas 1, 2, 3 (Bio-Med)</button>
+<div class="panel">
+  <p>
+  	<ul>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-I/Bio-Med.pdf" target="new">Primeros Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-II/Bio-Med.pdf" target="new">Segundos Parciales</a></li>
+		<li><a href="https://pentagono.uniandes.edu.co/parcial-III/Bio-Med.pdf" target="new">Terceros Parciales</a></li>
+	</ul>
+  </p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+
+<br><br><br>
+	
+	</article>
+
+
+
+    <footer>
+    <a href="http://www.uniandes.edu.co/" target="new">Universidad de los Andes</a> - <a href="http://matematicas.uniandes.edu.co/" target="new">Departamento de Matemáticas</a> - <a href="http://ciencias.uniandes.edu.co/" target="new">Facultad de Ciencias</a><br />
+ <a href="https://en.wikipedia.org/wiki/Bogot%C3%A1 " target="new">Bogotá D.C.</a>, <a href="https://en.wikipedia.org/wiki/Colombia" target="new">Colombia</a>.<br /><br />
+ Universidad de los Andes | Vigilada Mineducación | Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.<br />
+Reconocimiento personería jurídica: Resolución 28 del 23 de febrero de 1949 Minjusticia.
+	</footer>
+
+</div>
+
+</body>
+</html>
